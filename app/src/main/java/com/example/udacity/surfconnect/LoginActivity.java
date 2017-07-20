@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
         fbloginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-               // launchAccountActivity();
+                launchAccountActivity();
             }
 
             @Override
@@ -74,6 +74,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onError(FacebookException error) {
                 String toastMessage = error.getMessage();
+                Log.e("error", "in onError()");
                 Toast.makeText(LoginActivity.this, toastMessage, Toast.LENGTH_LONG).show();
             }
         });
@@ -81,7 +82,9 @@ public class LoginActivity extends AppCompatActivity {
 
         // Check for existing token
         AccessToken accessToken = AccountKit.getCurrentAccessToken();
-        if(accessToken!=null){
+        com.facebook.AccessToken loginToken = com.facebook.AccessToken.getCurrentAccessToken();
+        if(accessToken!=null|| loginToken!=null){
+            Log.e("token", "not null");
             launchAccountActivity();
         }
     }
@@ -91,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         // Forward result to the callback manager for Login Button
         callbackManager.onActivityResult(requestCode,resultCode,data);
-        
+
         //confirm that this response matches your request
         if(requestCode==APP_REQUEST_CODE){
             AccountKitLoginResult loginResult = data.getParcelableExtra(AccountKitLoginResult.RESULT_KEY);
@@ -101,6 +104,7 @@ public class LoginActivity extends AppCompatActivity {
                 Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
 
             }else if(loginResult.getAccessToken()!=null){
+                Log.e("token", loginResult.getAccessToken().toString());
                 //on successful login proceed to account activity
                 launchAccountActivity();
             }

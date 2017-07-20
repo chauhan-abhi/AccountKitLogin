@@ -1,33 +1,35 @@
 package com.example.udacity.surfconnect;
 
-import android.accessibilityservice.GestureDescription;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.Transformation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
 import com.facebook.Profile;
+import com.facebook.ProfileTracker;
 import com.facebook.accountkit.Account;
 import com.facebook.accountkit.AccountKit;
 import com.facebook.accountkit.AccountKitCallback;
 import com.facebook.accountkit.AccountKitError;
 import com.facebook.accountkit.PhoneNumber;
+import com.facebook.login.LoginManager;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 import com.makeramen.roundedimageview.RoundedTransformationBuilder;
 import com.squareup.picasso.Picasso;
-
+import com.squareup.picasso.Transformation;
 import java.util.Locale;
 
 public class AccountActivity extends AppCompatActivity {
 
+    ProfileTracker profileTracker;
     ImageView profilePic;
     TextView id;
     TextView infoLabel;
@@ -43,7 +45,28 @@ public class AccountActivity extends AppCompatActivity {
         id = (TextView) findViewById(R.id.id);
         infoLabel = (TextView) findViewById(R.id.info_label);
         info = (TextView) findViewById(R.id.info);
-
+        // register a receiver for the onCurrentProfileChanged event
+        profileTracker = new ProfileTracker() {
+            @Override
+            protected void onCurrentProfileChanged (Profile oldProfile, Profile currentProfile) {
+                if (currentProfile != null) {
+                    displayProfileInfo(currentProfile);
+                }
+            }
+        };
+        if (AccessToken.getCurrentAccessToken() != null) {
+            Profile profile = Profile.getCurrentProfile();
+            // If there is an access token then Login Button was used
+            // Check if the profile has already been fetched
+            Profile currentProfile = Profile.getCurrentProfile();
+            if (currentProfile != null) {
+                displayProfileInfo(currentProfile);
+            }
+            else {
+                // Fetch the profile, which will trigger the onCurrentProfileChanged receiver
+                Profile.fetchProfileForCurrentAccessToken();
+            }
+        }else{
         AccountKit.getCurrentAccount(new AccountKitCallback<Account>() {
             @Override
             public void onSuccess(Account account) {
@@ -73,13 +96,21 @@ public class AccountActivity extends AppCompatActivity {
                 Log.i("error","failed to read account details");
             }
         });
+        }
     }
     @Override
     public void onDestroy() {
         super.onDestroy();
+
+        // unregister the profile tracker receiver
+        profileTracker.stopTracking();
     }
+
     public void onLogout(View view){
         AccountKit.logOut();
+        // logout of Login Button
+        LoginManager.getInstance().logOut();
+
         launchLoginActivity();
     }
     private void displayProfileInfo(Profile profile) {
