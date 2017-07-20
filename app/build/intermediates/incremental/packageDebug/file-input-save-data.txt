@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 20 14:32:29 IST 2017
+#Thu Jul 20 15:20:41 IST 2017
 835.base=D\:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\resources-debug.ap_
 100.set=JAVA_RESOURCE
 57.file=D\:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png

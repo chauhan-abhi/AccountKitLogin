@@ -6,26 +6,38 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1500541753059"
+    timestamp="1500544219342"
     token="6739066009956840542"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3365" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="206" />
     <task
         name="verifier"
-        duration="0" />
+        duration="44" />
 
+    <artifact
+        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
@@ -36,16 +48,7 @@
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -56,17 +59,26 @@
     <artifact
         location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
-    <artifact
-        location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1500541753059"
+        timestamp="1500544219342"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
@@ -77,16 +89,7 @@
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -97,9 +100,6 @@
         <artifact
             location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

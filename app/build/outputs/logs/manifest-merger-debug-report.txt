@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:4:5-46
 		INJECTED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml
@@ -20,7 +20,7 @@ ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLog
 	android:name
 		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:8:5-51:19
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:8:5-62:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Abhijeet Singh\.android\build-cache\485b22062aa83285ee889a4c8beebed55bbd9a6a\output\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:28:5-53:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\Abhijeet Singh\.android\build-cache\1a79476ea141542845a8ac4fda6a3e16e1b96563\output\AndroidManifest.xml:29:5-20
@@ -67,8 +67,32 @@ ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLog
 		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:20:13-61
 	android:name
 		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:19:20-70
+activity#com.facebook.CustomTabActivity
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:21:9-30:20
+	android:exported
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:22:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:24:13-29:29
+action#android.intent.action.VIEW
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:26:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:27:17-78
+	android:name
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:27:27-75
+data
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:28:17-75
+	android:scheme
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:28:23-72
 activity#com.facebook.accountkit.ui.AccountKitActivity
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:21:9-25:20
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:32:9-36:20
 MERGED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:29:9-34:58
 	android:label
 		ADDED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:31:13-65
@@ -77,65 +101,47 @@ MERGED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Sing
 	android:windowSoftInputMode
 		ADDED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:34:13-55
 	android:theme
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:23:13-49
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:34:13-49
 		REJECTED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:33:13-52
 	tools:replace
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:24:13-42
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:35:13-42
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:22:13-73
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:33:13-73
 activity#com.facebook.accountkit.ui.AccountKitEmailRedirectActivity
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:26:9-33:20
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:37:9-44:20
 MERGED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:35:9-38:40
 	android:exported
 		ADDED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:37:13-36
 	android:noHistory
 		ADDED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:26:19-92
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:27:13-32:29
-action#android.intent.action.VIEW
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:28:17-69
-	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:28:25-66
-category#android.intent.category.DEFAULT
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:29:17-76
-	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:29:27-73
-category#android.intent.category.BROWSABLE
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:30:17-78
-	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:30:27-75
-data
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:31:17-75
-	android:scheme
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:31:23-72
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:37:19-92
 activity#com.example.udacity.surfconnect.LoginActivity
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:35:9-44:20
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:46:9-55:20
 	android:screenOrientation
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:48:13-49
 	android:theme
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:38:13-51
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:49:13-51
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:36:13-73
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:47:13-73
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:50:13-54:29
 action#android.intent.action.MAIN
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:51:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:53:17-77
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:53:27-74
 activity#com.example.udacity.surfconnect.AccountActivity
-ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:46:9-49:52
+ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:57:9-60:52
 	android:screenOrientation
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:48:13-44
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:59:13-44
 	android:name
-		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:47:13-75
+		ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml:58:13-75
 uses-sdk
 INJECTED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Abhijeet Singh\.android\build-cache\485b22062aa83285ee889a4c8beebed55bbd9a6a\output\AndroidManifest.xml:5:5-7:41
