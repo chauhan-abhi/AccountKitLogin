@@ -2,13 +2,17 @@ package com.example.udacity.surfconnect;
 
 import android.accessibilityservice.GestureDescription;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Transformation;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.Profile;
 import com.facebook.accountkit.Account;
 import com.facebook.accountkit.AccountKit;
 import com.facebook.accountkit.AccountKitCallback;
@@ -17,11 +21,14 @@ import com.facebook.accountkit.PhoneNumber;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
+import com.makeramen.roundedimageview.RoundedTransformationBuilder;
+import com.squareup.picasso.Picasso;
 
 import java.util.Locale;
 
 public class AccountActivity extends AppCompatActivity {
 
+    ImageView profilePic;
     TextView id;
     TextView infoLabel;
     TextView info;
@@ -32,6 +39,7 @@ public class AccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
         FontHelper.setCustomTypeface(findViewById(R.id.view_root));
 
+        profilePic = (ImageView) findViewById(R.id.profile_image);
         id = (TextView) findViewById(R.id.id);
         infoLabel = (TextView) findViewById(R.id.info_label);
         info = (TextView) findViewById(R.id.info);
@@ -66,9 +74,27 @@ public class AccountActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+    }
     public void onLogout(View view){
         AccountKit.logOut();
         launchLoginActivity();
+    }
+    private void displayProfileInfo(Profile profile) {
+        // get Profile ID
+        String profileId = profile.getId();
+        id.setText(profileId);
+
+        // display the Profile name
+        String name = profile.getName();
+        info.setText(name);
+        infoLabel.setText(R.string.name_label);
+
+        // display the profile picture
+        Uri profilePicUri = profile.getProfilePictureUri(100, 100);
+        displayProfilePic(profilePicUri);
     }
 
     private void launchLoginActivity() {
@@ -90,4 +116,15 @@ public class AccountActivity extends AppCompatActivity {
         return phoneNumber;
     }
 
+    private void displayProfilePic(Uri uri) {
+        // helper method to load the profile pic in a circular imageview
+        Transformation transformation = (Transformation) new RoundedTransformationBuilder()
+                .cornerRadiusDp(30)
+                .oval(false)
+                .build();
+        Picasso.with(AccountActivity.this)
+                .load(uri)
+                .transform((com.squareup.picasso.Transformation) transformation)
+                .into(profilePic);
+    }
 }

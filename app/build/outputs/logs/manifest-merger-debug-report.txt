@@ -139,6 +139,7 @@ ADDED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLog
 uses-sdk
 INJECTED from D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Abhijeet Singh\.android\build-cache\485b22062aa83285ee889a4c8beebed55bbd9a6a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\Abhijeet Singh\.android\build-cache\bcc92463c0306e993e5a8f50aa5c516c83b211bc\output\AndroidManifest.xml:7:5-43
 MERGED from [com.facebook.android:account-kit-sdk:4.24.0] C:\Users\Abhijeet Singh\.android\build-cache\2da42a8dff0ddae62ec69bde323267d14e8ab24d\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Abhijeet Singh\.android\build-cache\1a79476ea141542845a8ac4fda6a3e16e1b96563\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Abhijeet Singh\.android\build-cache\36b4c39c3ead1fcb388978fddd92489ef3436936\output\AndroidManifest.xml:20:5-43

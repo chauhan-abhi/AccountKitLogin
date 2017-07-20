@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Abhijeet Singh\\.android\\build-cache\\28e7c5b15d34ed382d8dbfa16e4505b881ea96fc\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Abhijeet Singh\\.android\\build-cache\\28e7c5b15d34ed382d8dbfa16e4505b881ea96fc\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
         "merged": "D:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\Abhijeet Singh\\.android\\build-cache\\28e7c5b15d34ed382d8dbfa16e4505b881ea96fc\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Abhijeet Singh\\.android\\build-cache\\28e7c5b15d34ed382d8dbfa16e4505b881ea96fc\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "D:\\stuff\\Downloads\\facebook-account-kit-android\\lesson2\\AccountKitLoginStarterProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
