@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfe78ea0b9eb86e1a6e8af2d04e409725052d568">
+        <dex dex="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_87d1087a0bc148ef333437c1f57c2c8e10ce359f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\stuff\Downloads\facebook-account-kit-android\lesson2\AccountKitLoginStarterProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8f55782b7923fc72f90dd389824e42112126279f\classes.dex" />
+    </item>
+
+</items>

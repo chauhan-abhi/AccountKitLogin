@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string gender="unknown" name="com_accountkit_account_verified">اکاؤنٹ کی توثیق کر دی گئی!</string>
+    <string gender="unknown" name="com_accountkit_button_begin">شروع کریں</string>
+    <string gender="unknown" name="com_accountkit_button_cancel">منسوخ کریں</string>
+    <string gender="unknown" name="com_accountkit_button_confirm">توثیق کریں</string>
+    <string gender="unknown" name="com_accountkit_button_continue">جاری رکھیں</string>
+    <string gender="unknown" name="com_accountkit_button_edit">ترمیم کریں</string>
+    <string gender="unknown" name="com_accountkit_button_log_in">لاگ ان کریں</string>
+    <string gender="unknown" name="com_accountkit_button_next">اگلا</string>
+    <string gender="unknown" name="com_accountkit_button_ok">ٹھیک ہے</string>
+    <string gender="unknown" name="com_accountkit_button_resend_code_in">%1$d میں دوبارہ SMS بھیجیں</string>
+    <string gender="unknown" name="com_accountkit_button_resend_sms">SMS دوبارہ بھیجیں</string>
+    <string gender="unknown" name="com_accountkit_button_send">بھیجیں</string>
+    <string gender="unknown" name="com_accountkit_button_send_code_in_call">کال حاصل کریں</string>
+    <string gender="unknown" name="com_accountkit_button_send_code_in_call_details">صوتی کال میں اپنا کوڈ موصول کریں</string>
+    <string gender="unknown" name="com_accountkit_button_send_code_in_call_from_facebook_details">Facebook کی جانب سے صوتی کال میں اپنا کوڈ موصول کریں</string>
+    <string gender="unknown" name="com_accountkit_button_send_code_in_fb">Facebook پر ایک کوڈ حاصل کریں</string>
+    <string gender="unknown" name="com_accountkit_button_send_code_in_fb_details">کوڈ Facebook اطلاع کے طور پر موصول ہوگا</string>
+    <string gender="unknown" name="com_accountkit_button_start">شروع کریں</string>
+    <string gender="unknown" name="com_accountkit_button_start_over">دوبارہ کوشش کریں</string>
+    <string gender="unknown" name="com_accountkit_button_submit">جمع کرائیں</string>
+    <string gender="unknown" name="com_accountkit_check_email">اپنا ای میل کھولیں</string>
+    <string gender="unknown" name="com_accountkit_code_sent_to">اپنے فون نمبر %1$s کی توثیق کریں</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a> اور &lt;a href=%4$s>کوکی کا استعمال&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement_app_privacy_policy">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a>، &lt;a href=%4$s>کوکی کا استعمال&lt;/a> اور %6$s کی &lt;a href=%5$s>رازداری کی پالیسی&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a>، &lt;a href=%4$s>کوکی کا استعمال&lt;/a> اور &lt;a href=%5$s>رازداری کی پالیسی&lt;/a> اور %7$s کی &lt;a href=%6$s>خدمات کی شرائط&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement_app_privacy_policy_and_terms_instant_verification">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a>، &lt;a href=%4$s>کوکی کا استعمال&lt;/a> اور &lt;a href=%5$s>رازداری کی پالیسی&lt;/a> اور %7$s کی &lt;a href=%6$s>خدمات کی شرائط&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔ آپ کے اکاؤنٹ کی توثیق کیسے کی گئی تھی اس کے متعلق &lt;a href=%8$s>مزید جانیں&lt;/a>۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement_app_privacy_policy_instant_verification">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a>، &lt;a href=%4$s>کوکی کا استعمال&lt;/a> %6$s کی &lt;a href=%5$s>رازداری کی پالیسی&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔ آپ کے اکاؤنٹ کی توثیق کیسے کی گئی تھی اس کے متعلق &lt;a href=%7$s>مزید جانیں&lt;/a>۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_agreement_instant_verification">Facebook کی &lt;a href=%2$s>شرائط&lt;/a>، &lt;a href=%3$s>ڈیٹا پالیسی&lt;/a> اور &lt;a href=%4$s>کوکی کا استعمال&lt;/a> قبول کرنے کے لیے %1$s پر ٹیپ کریں۔ آپ کے اکاؤنٹ کی توثیق کیسے کی گئی تھی اس کے متعلق &lt;a href=%5$s>مزید جانیں&lt;/a>۔</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_text">مجھے کوڈ نہیں ملا</string>
+    <string gender="unknown" name="com_accountkit_confirmation_code_title">اپنا کوڈ درج کریں</string>
+    <string gender="unknown" name="com_accountkit_email_invalid">یہ ای میل غلط ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string gender="unknown" name="com_accountkit_email_loading_title">ای میل بھیجا جا رہا ہے…</string>
+    <string gender="unknown" name="com_accountkit_email_login_retry_title">اپنے ای میل کی توثیق کریں</string>
+    <string gender="unknown" name="com_accountkit_email_login_text">%2$s استعمال کرنے میں آپ کی مدد کی خاطر Facebook کی جانب سے Account Kit سے توثیقی ای میل حاصل کرنے کے لیے %1$s پر ٹیپ کریں۔ آپ کو اسے استعمال کرنے کے لیے Facebook اکاؤنٹ کی ضرورت نہیں ہوتی ہے۔ &lt;a href=%3$s>Facebook کے ذریعے آپ کی معلومات استعمال کئے جانے کا طریقہ جانیں&lt;/a>۔</string>
+    <string gender="unknown" name="com_accountkit_email_login_title">اپنا ای میل پتہ درج کریں</string>
+    <string gender="unknown" name="com_accountkit_email_not_received">ای میل دوبارہ بھیجیں</string>
+    <string gender="unknown" name="com_accountkit_email_verify_title">ای میل کھولیں اور اپنے ای میل پتہ کی توثیق کریں</string>
+    <string gender="unknown" name="com_accountkit_enter_code_sent_to">%1$s پر بھیجا گیا کوڈ درج کریں</string>
+    <string gender="unknown" name="com_accountkit_error_title">سسٹم کا مسئلہ واقع ہوگیا ہے۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string gender="unknown" name="com_accountkit_facebook_code_entry_title">Facebook سے موصول کردہ اپنا کوڈ درج کریں</string>
+    <string gender="unknown" name="com_accountkit_logging_in">لاگ ان کیا جا رہا ہے…</string>
+    <string gender="unknown" name="com_accountkit_other_ways_to_get_code">کوڈ حاصل کرنے کے دیگر طریقے:</string>
+    <string gender="unknown" name="com_accountkit_phone_error_title">براہ کرم درست موبائل نمبر درج کریں۔</string>
+    <string gender="unknown" name="com_accountkit_phone_loading_title">آپ کے نمبر کی توثیق کی جا رہی ہے…</string>
+    <string gender="unknown" name="com_accountkit_phone_login_retry_title">اپنے موبائل نمبر کی توثیق کریں</string>
+    <string gender="unknown" name="com_accountkit_phone_login_text">Facebook کی جانب سے تعاون یافتہ Account Kit کے ساتھ آپ کے اکاؤنٹ کی توثیق کرنے کے لیے %1$s پر ٹیپ کریں۔ آپ کو Account Kit استعمال کرنے کے لیے Facebook اکاؤنٹ کی ضرورت نہیں ہوتی ہے۔ آپ کے نمبر کی توثیق کرنے کے لیے SMS بھیجا جا سکتا ہے۔ پیغام اور ڈیٹا کی قیمتوں کا اطلاق ہو سکتا ہے۔ &lt;a href=%2$s>Facebook کے ذریعے آپ کی معلومات استعمال کئے جانے کا طریقہ جانیں&lt;/a>۔</string>
+    <string gender="unknown" name="com_accountkit_phone_login_title">اپنا موبائل نمبر درج کریں</string>
+    <string gender="unknown" name="com_accountkit_resend_check">اپنے SMS ان باکس کی جانچ کریں</string>
+    <string gender="unknown" name="com_accountkit_resend_email_text">نیا ای میل بھیجیں</string>
+    <string gender="unknown" name="com_accountkit_resend_title">اگر آپ کو کوڈ موصول نہیں ہوا ہے:</string>
+    <string gender="unknown" name="com_accountkit_return_title">آپ کو واپس %1$s پر لے جایا جا رہا ہے…</string>
+    <string gender="unknown" name="com_accountkit_sent_title">بھیج دیا گیا!</string>
+    <string gender="unknown" name="com_accountkit_success_title">توثیق شدہ!</string>
+    <string gender="unknown" name="com_accountkit_toolbar_title">%1$s میں لاگ ان کریں</string>
+    <string gender="unknown" name="com_accountkit_verify_confirmation_code_title">ہم آپ کے کوڈ کی توثیق نہیں کر سکے۔ براہ کرم دوبارہ کوشش کریں:</string>
+    <string gender="unknown" name="com_accountkit_verify_title">آپ کے کوڈ کی توثیق کی جا رہی ہے…</string>
+    <string gender="unknown" name="com_accountkit_voice_call_code_entry_title">صوتی کال سے موصول کردہ اپنا کوڈ درج کریں</string>
+</resources>
