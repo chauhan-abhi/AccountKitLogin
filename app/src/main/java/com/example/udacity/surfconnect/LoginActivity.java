@@ -12,6 +12,7 @@ import com.facebook.accountkit.AccountKitLoginResult;
 import com.facebook.accountkit.ui.AccountKitActivity;
 import com.facebook.accountkit.ui.AccountKitConfiguration;
 import com.facebook.accountkit.ui.LoginType;
+import com.facebook.appevents.AppEventsLogger;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -67,8 +68,15 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void onPhoneLogin(View view){onLogin(LoginType.PHONE);}
-    public void onEmailLogin(View view){onLogin(LoginType.EMAIL);}
+    public void onPhoneLogin(View view){
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        logger.logEvent("onPhoneLogin");
+        onLogin(LoginType.PHONE);
+    }
+    public void onEmailLogin(View view){
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        logger.logEvent("onEmailLogin");
+        onLogin(LoginType.EMAIL);}
 
     private void launchAccountActivity() {
         Intent intent = new Intent(this, AccountActivity.class);
