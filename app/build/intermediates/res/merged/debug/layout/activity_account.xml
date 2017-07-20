@@ -83,6 +83,7 @@
         android:textColor="@color/accountLogoutLabel"
         android:textSize="16sp"
         android:textAllCaps="false"
+        android:onClick="onLogout"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
